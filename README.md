@@ -7,7 +7,7 @@ For VBA
 
 The puprpose of this project is to analyze some of the stocks - how they faired in years 2017 and 2018. For this we can calculate 2 things
 1). Yearly Volume - sum all of the daily volume for each stock
-2). Yearly Return - the percentage increase or decrease in price from          	the beginning of the year to the end of the year.
+2). Yearly Return - the percentage increase or decrease in price from the beginning of the year to the end of the year.
 
 For these purposes, we will "refactor" the code we already have for one of the stock ticker - DQ. We will reuse this code for all the 12 stock/tickers, and calculate the yearly volumes and returns.
 
@@ -36,7 +36,6 @@ However, in certain scenarios it is better NOT to refactor your code.
 7. The code cannot be refactored without changing the API exposed to other components of the software.
 
 Here are some advantages and disadvantages
-
 ![Chart](./adv_disadv_refctor.png)
 
 ## Detailed statement on the advantages and disadvantages of the original and refactored VBA script 
